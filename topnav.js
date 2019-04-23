@@ -116,7 +116,7 @@
                 <label class="dropdown">
 
                 <div class="username">
-                  <img src="https://www.shareicon.net/data/32x32/2016/09/15/829458_user_512x512.png"> ${user} <span class="carat">▾<span>
+                  <img src="https://www.shareicon.net/data/32x32/2016/09/15/829458_user_512x512.png"> Jeanette Douglas <span class="carat">▾<span>
 
 
                 </div>
