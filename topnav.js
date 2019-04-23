@@ -1,6 +1,7 @@
 'use strict';
 (
   function () {
+
     class TopNavigation extends HTMLElement {
       constructor() {
         // establish prototype chain
@@ -116,7 +117,8 @@
                 <label class="dropdown">
 
                 <div class="username">
-                  <img src="https://www.shareicon.net/data/32x32/2016/09/15/829458_user_512x512.png"> Jeanette Douglas <span class="carat">▾<span>
+                <img src="https://www.shareicon.net/data/32x32/2016/09/15/829458_user_512x512.png"> ${user} <mwc-icon>keyboard_arrow_down</mwc-icon>
+
 
 
                 </div>
@@ -139,19 +141,21 @@
 
 
         </body>
+
       `;
 
         shadow.appendChild(topNavigationContainer);
       }
 
-          // gathering data from element attributes
-    get user() {
-      return this.getAttribute('user') || '';
-    }
+      // gathering data from element attributes
+      get user() {
+        console.log(this.getAttribute('user') || '')
+        return this.getAttribute('user') || '';
+      }
 
     }
 
-    
+
 
     // let the browser know about the custom element
     customElements.define('atom-topnav', TopNavigation);
