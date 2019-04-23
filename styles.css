@@ -1,0 +1,11 @@
+body {
+width: 100%;
+margin: 0;
+font-family: 'Nunito Sans', sans-serif;
+color: #263951;
+}
+
+:root {
+  --primaryColor: #2751bf;
+  --secondaryColor: #6885d3;
+}
