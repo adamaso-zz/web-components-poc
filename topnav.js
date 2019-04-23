@@ -119,8 +119,6 @@
                 <div class="username">
                 <img src="https://www.shareicon.net/data/32x32/2016/09/15/829458_user_512x512.png"> ${user} <mwc-icon>keyboard_arrow_down</mwc-icon>
 
-
-
                 </div>
               
                 <input type="checkbox" class="dropdown-input" id="test">
@@ -154,8 +152,6 @@
       }
 
     }
-
-
 
     // let the browser know about the custom element
     customElements.define('atom-topnav', TopNavigation);
